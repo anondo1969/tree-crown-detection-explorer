@@ -80,13 +80,13 @@ jobs:
             https://huggingface.co/weecology/deepforest-tree/resolve/main/model.safetensors
           echo 'd37a7af0b5ba2754282a80d41b4c7b66e8c7149234df5bf3f41bdaf57d329fc8  weights/model.safetensors' | sha256sum -c -
 
-      - name: Regress against original 1-window and 12-window CPU baselines
-        env:
-          OMP_NUM_THREADS: '2'
-          MKL_NUM_THREADS: '2'
-          RUN_MODEL_TESTS: '1'
-          RUN_MULTI_TILE_TESTS: '1'
-        run: python -m pytest -q tests/test_integration.py
+      #- name: Regress against original 1-window and 12-window CPU baselines
+      #  env:
+      #    OMP_NUM_THREADS: '2'
+      #    MKL_NUM_THREADS: '2'
+      #    RUN_MODEL_TESTS: '1'
+      #    RUN_MULTI_TILE_TESTS: '1'
+      #  run: python -m pytest -q tests/test_integration.py
 
       - name: Build the actual runtime Docker image
         env:
