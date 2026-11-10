@@ -1,0 +1,6 @@
+Review the generated application against the input and the Serve
+template requirements. Run the available tests, check the scientific
+interpretation and labels, verify Docker and that the
+app binds to the framework's required port, and fix any issues you find.
+Summarize what passed, what failed, and what you could not verify.
+Do not publish the application yet.
