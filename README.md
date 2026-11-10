@@ -2,7 +2,7 @@
 
 A small **Gradio Blocks** interface for candidate tree-crown bounding-box detection in high-resolution RGB aerial images. It wraps the original `tree_crown_detector.py` from the [DDLS 2026 workshop](https://github.com/ScilifelabDataCentre/ddls-2026-workshop-materials/tree/main/tree_crown_detection) **without modifying that scientific file**. Detection is performed with the actual [weecology/deepforest-tree](https://huggingface.co/weecology/deepforest-tree) RetinaNet ResNet-50 FPN model.
 
-This is a single-page local research demo, not a trained replacement model or a tree-census tool. Nothing has been published or deployed to Serve.
+This is a single-page local research demo, not a trained replacement model or a tree-census tool.
 
 ## Contents
 
