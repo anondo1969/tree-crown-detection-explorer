@@ -1,0 +1,9 @@
+# CPU setup: install torch + torchvision from the official PyTorch CPU index first.
+# CUDA users should install matching platform-specific torch builds instead.
+torch==2.10.0
+torchvision==0.25.0
+numpy==2.3.5
+pillow==12.3.0
+safetensors==0.7.0
+gradio==6.5.1
+pandas==2.2.3

@@ -1,0 +1,11 @@
+.venv/
+__pycache__/
+.pytest_cache/
+*.py[cod]
+*.egg-info/
+.env
+# The 129 MB pretrained model stays local; GitHub Actions fetches it at build time.
+weights/model.safetensors
+# The source/validation baseline is tracked; generated user results are not.
+results/
+logs/

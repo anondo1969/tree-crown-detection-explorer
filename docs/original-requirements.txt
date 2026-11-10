@@ -1,0 +1,6 @@
+# For GPU, install torch/torchvision matching your CUDA version from https://pytorch.org/get-started/locally/
+torch>=2.0
+torchvision>=0.15
+numpy
+pillow
+safetensors

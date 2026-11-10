@@ -1,0 +1,19 @@
+{
+  "purpose": "descriptive comparison only, not an independent performance benchmark",
+  "sample": "2019_YELL_2_541000_4977000_image_crop.png",
+  "reference_xml": "2019_YELL_2_541000_4977000_image_crop.xml",
+  "annotation_labels": {
+    "Tree": 279
+  },
+  "model_output_labels": {
+    "Tree": 397
+  },
+  "number_of_original_tile_windows": 12,
+  "n_reference_annotations": 279,
+  "n_predictions": 397,
+  "matching": "confidence-descending greedy one-to-one IoU >= 0.5, same class",
+  "n_matched": 194,
+  "unmatched_prediction_count": 203,
+  "unmatched_reference_count": 85,
+  "important_limitation": "Annotation completeness and training/test independence not established"
+}
